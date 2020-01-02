@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/search_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Women Watches"
+        android:layout_margin="5dp"
+        tools:ignore="HardcodedText"
+        android:background="@drawable/edit_text_background"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:drawableEnd="@drawable/ic_search_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/women_watches_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/design_items"/>
+
+</LinearLayout>

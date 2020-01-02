@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.anonymous.rightshop">
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".activity.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.SigninActivity"
+            android:label="Signin Account"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:label="Signup Account"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".activity.ForgetPasswordActivity"
+            android:label="Forget Password"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:label="Welcome!"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".activity.CategoriesActivity"
+            android:label="Sub Categories"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".activity.OrderActivity"
+            android:label="Your Cart"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+        <activity
+            android:name=".activity.SubCategoriesActivity"
+            android:label="Items"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivityWithoutLogin"
+            android:label="Right Shop (Not Logged In)"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".activity.ServicesActivity"
+            android:label="Right Shop Services"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+        <activity android:name=".activity.HowWeDeliverActivity"
+            android:label="How We Deliver"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+        <activity android:name=".activity.ItemDetailsActivity"
+            android:label="Item Details"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+    </application>
+
+
+</manifest>

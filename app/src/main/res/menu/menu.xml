@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- tools:showIn="navigation_view"-->
+    <group android:checkableBehavior="single"
+        tools:ignore="HardcodedText" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_login_account"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_how_we_deliver"
+            android:icon="@drawable/ic_how_we_developer_24dp"
+            android:title="How we Deliver?"
+            />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="Services"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_input_black_24dp"
+            android:title="Logout"/>
+    </group>
+
+    <item android:title="Application"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nav_any_issue"
+                android:icon="@drawable/ic_report_problem_black_24dp"
+                android:title="Any Issue?" />
+
+            <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Rate App" />
+
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share App" />
+
+        </menu>
+    </item>
+</menu>

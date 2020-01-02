@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "297979382922",
+    "firebase_url": "https://right-shop.firebaseio.com",
+    "project_id": "right-shop",
+    "storage_bucket": "right-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297979382922:android:1e3f50119e7a9e1e",
+        "android_client_info": {
+          "package_name": "com.anonymous.rightshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297979382922-6pm091tk4dpaktql8j12tva6khg631n4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.rightshop",
+            "certificate_hash": "84842e545bcac7ad26fd9e299ccefb53a9947687"
+          }
+        },
+        {
+          "client_id": "297979382922-ttp3ei2a5f7unrq0b77quuv8goejfak9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK3APvYFm2fbyXhFKNrh8zGyNkOzMDoWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297979382922-ttp3ei2a5f7unrq0b77quuv8goejfak9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

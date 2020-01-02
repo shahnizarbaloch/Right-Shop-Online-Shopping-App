@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_rv"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_centerInParent="true"
+    android:padding="5dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        tools:src="@drawable/user"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlHardcoded,UnusedAttribute"
+        tools:text="Item Name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_item_price"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/tv_item_name"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/tv_item_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlHardcoded,UnusedAttribute"
+        tools:text="100" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_item_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/tv_item_price"
+        android:layout_toRightOf="@id/tv_item_price"
+        android:drawableEnd="@drawable/ic_delete"
+        android:layout_centerVertical="true"
+        android:drawableRight="@drawable/ic_delete"
+        android:gravity="center_horizontal|right"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/holo_red_dark"
+        tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+
+</RelativeLayout>

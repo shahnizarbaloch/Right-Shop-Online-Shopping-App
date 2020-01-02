@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    tools:ignore="HardcodedText" >
+
+   <androidx.appcompat.widget.AppCompatEditText
+       android:id="@+id/issue_title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Issue Title"
+       android:background="@drawable/edit_text_background"
+       android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+       android:inputType="text"
+       android:layout_margin="10dp"
+    />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/issue_details"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Detail About Issue"
+        android:background="@drawable/edit_text_background"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:inputType="textMultiLine"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_issue_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Report"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
